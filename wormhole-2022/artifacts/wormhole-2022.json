@@ -1,0 +1,14 @@
+{
+  "incident_id": "wormhole-2022",
+  "monitor_version": "v0.1",
+  "structural_signals": {
+    "agent_id_mismatch": "unknown",
+    "agent_ids_seen": "unknown",
+    "events_file_present": true,
+    "schema_versions_seen": "unknown",
+    "state_file_present": true,
+    "trace_file_count": 2
+  },
+  "terminal_state": "unknown",
+  "timestamp": "2026-01-28T13:51:47+00:00"
+}

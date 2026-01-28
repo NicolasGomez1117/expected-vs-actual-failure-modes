@@ -1,33 +1,25 @@
-# Failure Shape Alignment
+# failure-shape-alignment
 
-This repository documents a constrained alignment between structural failure models
-and temporal observability signals, applied to real-world Ethereum incidents.
+This repository presents a small, public-facing synthesis that aligns:
 
-It does not introduce new failure modes, predictions, or mitigation strategies.
-Instead, it focuses on how different abstractions condition what can be
-interpreted from incomplete evidence.
+- structural failure shapes (ERC-8004 as an abstract schema)
+- temporal observability signals (accrual lag as a conditioning lens)
 
-## Core abstractions
+It is designed to be read, not run. There is no code, tooling, or automation.
 
-- **Structural failure shapes** (ERC-8004)
-  - What kinds of failures are possible at the interface/spec level
+## Scope
+- One historical incident: Wormhole 2022
+- One derived artifact: a single JSON record used as supporting evidence
+- Short interpretive documents that specify projections, conditioning, and limits
 
-- **Temporal observability** (accrual lag)
-  - When deviations from expected behavior become detectable over time
+## Non-goals
+- No exploit analysis or reconstruction
+- No predictions or scoring
+- No alerts, mitigation advice, or operational guidance
+- No private lab structure, monitoring scaffolding, or internal canon
 
-These abstractions are intentionally orthogonal.
-
-## What this repo does
-
-- Projects real incident observations onto ERC-8004 failure shapes
-- Conditions those projections using temporal signals (accrual)
-- Explicitly documents where interpretation must stop
-
-## What this repo does not do
-
-- No exploit analysis
-- No scoring or prioritization
-- No automated detection
-- No predictions or recommendations
-
-The goal is epistemic clarity under uncertainty.
+## Reading order (under 10 minutes)
+1. `wormhole-2022/overview.md`
+2. `wormhole-2022/erc8004-projection.md`
+3. `wormhole-2022/accrual-conditioning.md`
+4. `wormhole-2022/artifacts/wormhole-2022.json`
