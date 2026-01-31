@@ -1,4 +1,4 @@
-# failure-shape-alignment
+# expected-vs-actual-failure-modes
 
 This repository presents a small, public-facing synthesis that aligns:
 
